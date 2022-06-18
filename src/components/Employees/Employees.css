@@ -1,0 +1,20 @@
+.employee-main{
+    display: flex;
+    flex-direction: row;
+}
+.employee-container {
+    height: 100vh;
+    font-family: Poppins;
+    background-color: #f4f7fe;
+    overflow-y: scroll;
+    width: 100%;
+}
+.sidenav{
+    width: 30%;
+}
+
+.employee-body-container {
+    width: 98%;
+    height: 100%;
+    margin: 0 5px;
+}
