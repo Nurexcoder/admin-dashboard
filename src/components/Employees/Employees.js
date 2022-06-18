@@ -208,7 +208,7 @@ export default function TableOne({ isClicked, setIsClicked }) {
 
     return (
         <div className='employee-main'>
-            <SideNav className='sidenav' />
+            {/* <SideNav className='sidenav' /> */}
             <Box
                 className='employee-container'
                 sx={{
@@ -219,7 +219,7 @@ export default function TableOne({ isClicked, setIsClicked }) {
                     },
                     mt: "15px",
                 }}>
-                <SeachBar
+                {/* <SeachBar
                     id='input-with-icon-adornment'
                     variant='outlined'
                     onChange={(e) => setQuary(e.target.value)}
@@ -228,7 +228,7 @@ export default function TableOne({ isClicked, setIsClicked }) {
                             <Search />
                         </InputAdornment>
                     }
-                />
+                /> */}
                 <DataGrid
                     options={{
                         paging: false,
